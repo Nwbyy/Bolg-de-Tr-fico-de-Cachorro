@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #8b4513; /* marrom */
+    margin: 0;
+    font-size: 32px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #00aaff; /* azul */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('https://images.unsplash.com/photo-1507149833265-60c372daea22?auto=format&fit=crop&w=1200&q=80') center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.produtos {
+    padding: 40px;
+    text-align: center;
+}
+
+.produtos h2 {
+    color: #8b4513;
+}
+
+.card {
+    background-color: #2a2a2a;
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #00aaff;
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background-color: #a05a22;
+}
+
+.contato {
+    padding: 40px;
+    background-color: #111;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #000;
+    color: #888;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🐾 Pet Shop Negro 🐾</h1>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#cachorros">Cachorros</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="banner">
+    <h2>Encontre seu melhor amigo aqui!</h2>
+</section>
+
+<section id="cachorros" class="produtos">
+    <h2>Cachorros disponíveis</h2>
+
+    <div class="card">
+        <img src="https://placedog.net/400/300" alt="Cachorro 1">
+        <h3>Golden Retriever</h3>
+        <p>R$ 1.800,00</p>
+        <button onclick="comprar('Golden Retriever')">Comprar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://placedog.net/401/300" alt="Cachorro 2">
+        <h3>Labrador</h3>
+        <p>R$ 2.000,00</p>
+        <button onclick="comprar('Labrador')">Comprar</button>
+    </div>
+
+    <div class="card">
+        <img src="https://placedog.net/402/300" alt="Cachorro 3">
+        <h3>Husky Siberiano</h3>
+        <p>R$ 2.500,00</p>
+        <button onclick="comprar('Husky Siberiano')">Comprar</button>
+    </div>
+
+</section>
+
+<section id="contato" class="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@petshopnegro.com</p>
+    <p>Telefone: (11) 99999-9999</p>
+</section>
+
+<footer>
+    <p>© 2025 Pet Shop Negro - Todos os direitos reservados.</p>
+</footer>
+
+<script>
+    function comprar(nome) {
+        alert("Você comprou o cachorro: " + nome + " 🐶");
+    }
+</script>
+
+</body>
+</html>
